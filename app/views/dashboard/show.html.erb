@@ -1,0 +1,29 @@
+<!-- MAIN WRAPPER -->
+<div class="body-wrap">
+    <div id="st-container" class="st-container">
+
+     <%= render "layouts/sidebar-coulissante" %>
+
+        <div class="st-pusher">
+            <div class="st-content">
+                <div class="st-content-inner" >
+                    <!-- HEADER -->
+                    <div class="header">
+                        <%= render "layouts/top-bar" %>
+                       <%= render "layouts/navbar" %> 
+
+						<%= render "layouts/content-center-dashboard" %>
+
+                    <section class="slice sct-color-2">
+                        <div class="container">
+                            Your content ...
+                        </div>
+                    </section>
+
+                    <!-- FOOTER -->
+                    <%= render "layouts/footer" %>
+                </div>
+            </div>
+        </div><!-- END: st-pusher -->
+    </div>
+</div><!-- END: body-wrap -->
